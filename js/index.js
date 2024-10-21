@@ -43,3 +43,27 @@ document.getElementById("hide").addEventListener("click", function() {
 
 
 });
+
+
+document.getElementById("dark").addEventListener("click", function() {
+
+
+    let bodyTag = document.getElementsByTagName("body")[0];
+
+    bodyTag.style.backgroundColor = "black";
+
+
+
+
+});
+document.getElementById("light").addEventListener("click", function() {
+
+
+    let bodyTag = document.getElementsByTagName("body")[0];
+
+    bodyTag.style.backgroundColor = "white";
+
+
+
+
+});
