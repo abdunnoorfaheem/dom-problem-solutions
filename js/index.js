@@ -9,6 +9,7 @@ document.getElementById("btnOne").addEventListener("click", function() {
 
 });
 
+//problem 2
 
 let count = 0;
 document.getElementById("btnTwo").addEventListener("click", function() {
@@ -25,6 +26,7 @@ document.getElementById("btnTwo").addEventListener("click", function() {
 
 });
 
+//problem 3
 
 document.getElementById("hide").addEventListener("click", function() {
 
@@ -44,6 +46,7 @@ document.getElementById("hide").addEventListener("click", function() {
 
 });
 
+//problem 4
 
 document.getElementById("dark").addEventListener("click", function() {
 
@@ -62,6 +65,37 @@ document.getElementById("light").addEventListener("click", function() {
     let bodyTag = document.getElementsByTagName("body")[0];
 
     bodyTag.style.backgroundColor = "white";
+
+
+
+
+});
+
+//problem-5
+
+document.getElementById("sum").addEventListener("click", function() {
+
+
+
+    let inputOne = document.getElementById("n1").value;
+    let inputTwo = document.getElementById("n2").value;
+
+    let numberOne = parseFloat(inputOne);
+    let numberTwo = parseFloat(inputTwo);
+
+
+
+    let sumOfTwo = (numberOne + numberTwo);
+
+    let total = document.getElementById("calOut").innerText = sumOfTwo;
+
+
+    document.getElementById("n1").value = '';
+    document.getElementById("n2").value = '';
+
+
+
+
 
 
 
