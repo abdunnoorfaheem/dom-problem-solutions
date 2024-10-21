@@ -23,4 +23,23 @@ document.getElementById("btnTwo").addEventListener("click", function() {
 
 
 
-})
+});
+
+
+document.getElementById("hide").addEventListener("click", function() {
+
+
+    let secHide = document.getElementById("secOne");
+
+
+    secHide.style.display = "none";
+
+
+
+
+
+
+
+
+
+});
